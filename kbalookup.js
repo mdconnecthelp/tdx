@@ -1,4 +1,3 @@
-type="text/javascript">
 var ticketSubjectID = 'attribute37';
 document.getElementById(ticketSubjectID).onblur = function() {
 $.get('../../Shared/AutocompleteSearch?componentStr=kb&searchText=' + $('#' + ticketSubjectID).val(),null,function(result) {
